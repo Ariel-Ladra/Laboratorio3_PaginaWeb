@@ -1,0 +1,173 @@
+  /**************** INICIO DEL CSS RESET****************/
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+  
+  html, body {
+        height: 100%;
+        font-family: Arial, sans-serif; /* Puedes cambiar la fuente más adelante */
+    }
+  
+  body{
+    font-size: 16px;
+  }
+
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  button {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+  
+  small {
+    font-size: 0.875rem;
+  }
+
+
+  /**************** FIN DEL CSS RESET****************/
+
+  #logo{
+    width: 40%;
+  }
+
+  #logo img{
+    max-width: 150px;
+  }
+
+  header nav{
+    width: 60%;
+  }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1a1a1a; /* Fondo oscuro */
+}
+
+/* Navegación */
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f5c518; /* Color dorado al pasar el mouse */
+    font-weight: bold;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #1a1a1a;
+    padding: 10px 0;
+    border-radius: 4px;
+    z-index: 1000;
+    width: auto;
+    white-space: nowrap;
+}
+
+.menu:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    padding: 10px 20px;
+}
+
+.submenu li a {
+    font-size: 0.9rem;
+    color: #fff;
+    display: block;
+}
+
+.submenu li a:hover {
+    color: #f5c518;
+    background-color: #333; /* Efecto visual al pasar el mouse */
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: green;
+  margin: auto;
+  width: 95%;
+  height: 1000px;
+  overflow: hidden;
+}
+
+#banner{
+  height: 500px;
+  width: 90%;
+
+
+}
+
+img{
+  max-width: 100%;
+  max-height: auto;
+  border-style: solid, red , 10%;
+}
+
+article{
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+article div{
+  width: 20%;
+  height: 200px;
+  background-color: blue;
+}
+
+
+footer{
+  background-color: aqua;
+  height: 300px;
+}
