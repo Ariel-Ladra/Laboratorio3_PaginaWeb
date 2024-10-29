@@ -27,7 +27,7 @@ header{
 body{
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
-    background-image: url("/fondoImagen/fondo.jpg");
+    background-image: url("fondoImagen/fondo.jpg");
     background-repeat: repeat;
 
 }
